@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="video/backgroundVideo.mp4" type="video/mp4">
+      </video>
+    <div id="codeArea">
+        <div class="language">
+            <div class="title">
+                <div></div>
+                <div>HTML</div>
+                <div class="icon" id="htmlCopy">
+                    Copy
+                </div>
+            </div>
+            <div class="Editor">
+                <textarea name="html" id="html" ></textarea>
+            </div>
+        </div>
+        <div class="language">
+            <div class="title">
+                <div></div>
+                <div>CSS</div>
+                <div class="icon" id="cssCopy">Copy</div>
+            </div>
+            <div class="Editor">
+                <textarea name="css" id="css"></textarea>
+            </div>
+        </div>
+        <div class="language">
+            <div class="title">
+                <div></div>
+                <div>Javascript</div>
+                <div class="icon" id="jsCopy">Copy</div>
+            </div>
+            <div class="Editor">
+                <textarea name="js" id="js"></textarea>
+            </div>
+        </div>
+    </div>
+    <div id="outputArea">
+
+            <div id="content">
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

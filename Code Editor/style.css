@@ -1,0 +1,80 @@
+#codeArea *{
+    padding: 0;
+    margin: 0;
+    font-family: 'arial';
+    color:white;
+}
+body{
+    background: black;
+}
+#myVideo{
+    width: 99%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+#codeArea .icon{
+    margin: 0 10px;
+    cursor: pointer;
+}
+#codeArea .title{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 0 2px white inset;
+
+}
+#codeArea textarea{
+    width: 32vw;
+    height: 50vh;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    background:rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px white;
+    border: none;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+}
+#codeArea{
+    display: flex;
+    justify-content: space-evenly;
+}
+#codeArea .language{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#outputArea{
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px white;
+    border-radius: 5px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
